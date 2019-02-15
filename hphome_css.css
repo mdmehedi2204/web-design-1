@@ -1,0 +1,57 @@
+body	{
+	color: #FBFBFB;
+	justify-content: center;
+  display: flex;
+  background-color: #2E2532;
+  font-family: "Courier New", Times, serif;
+}
+
+.yes h1	{
+  white-space: nowrap;
+  overflow: hidden;
+  animation: title_anim 1.5s steps(20, end);
+  position: relative;
+  top: 20vh;
+  color: #FBFBFB;
+  opacity: 1;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  text-align:center;
+}
+
+@keyframes title_anim {
+  from  { width: 0 }
+  to  { width: 100% }
+}
+
+
+ul {
+  color: #FBFBFB;
+  position: relative;
+  text-align: center;
+  top: 45vh;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: all .6s;
+}
+
+
+li a:hover {
+  background-color:  #201A23;
+  transform: translateY(-2px);
+  cursor: pointer;
+}
